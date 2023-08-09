@@ -4,10 +4,10 @@
 ----------------------------------------------------------------------------------------------------
 This AirBnB project is a command intepreter to manipulate data without a visual interface.
 
-So in the console you will be able to:
---------1. create your data model  
---------2. manage (create, update, destroy, etc) objects via a console / command interpreter  
---------3. store and persist objects to a file (JSON file)  
+So in the console you will be able to:  
+<hr>1. create your data model  
+<hr>2. manage (create, update, destroy, etc) objects via a console / command interpreter  
+<hr>3. store and persist objects to a file (JSON file)  
 The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”.
 
 This abstraction will also allow you to change the type of storage easily without updating all of your codebase.
