@@ -46,3 +46,9 @@ To get help, run this command:
 ```shell
   help
 ```
+
+To quit from the program, run this command:
+
+```shell
+  quit
+```
