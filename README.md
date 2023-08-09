@@ -26,9 +26,9 @@ In order to access this project, you have to run the following command in the co
 ----------------------------------------------------------------------------------------------------
 To run this program, enter the following command:
 
-    ```shell
-      cd AirBnB_clone
-    ```
+```shell
+  cd AirBnB_clone
+```
 
 To execute the program, run the following commands
 
