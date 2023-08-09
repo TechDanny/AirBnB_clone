@@ -3,6 +3,11 @@ import locale
 import json
 from models.base_model import BaseModel
 from models.user import User
+from models.place import Place
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
 
 """
 This class serializes instances to a JSON file
@@ -43,7 +48,13 @@ class FileStorage:
         deserializes the JSON file tp object if the path exists
         otherwise nothing happens
         """
-        class_list = {"User": User}
+        class_list = {"User": User,
+                      "Place": Place,
+                      "State": State,
+                      "City": City,
+                      "Amenity": Amenity,
+                      "Review": Review
+                      }
         try:
             with open(self.__file_path, "r",
                       encoding=locale.getpreferredencoding()) as f:
