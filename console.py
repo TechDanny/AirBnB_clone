@@ -14,8 +14,6 @@ def parse(arg):
 
 """
 Defines the HBNBCommand(cmd.Cmd):
-    Attributes:
-    prompt(str): The command prompt
 """
 
 
@@ -25,19 +23,19 @@ class HBNBCommand(cmd.Cmd):
 
     def emptyline(self):
         """
-        Do not execute anything when prompted
+        Does not execute anything
         """
         pass
 
     def do_quit(self, line):
         """
-        Quit command to exit the program
+        Exit the program
         """
         return True
 
     def do_EOF(self, line):
         """
-        EOF signal to exit the program
+        Exit the program
         """
         return True
 
