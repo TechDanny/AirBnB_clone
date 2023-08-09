@@ -3,7 +3,7 @@ import cmd
 from models.base_model import BaseModel
 from models import storage
 import models
-
+from models.user import User
 
 def parse(arg):
     """
@@ -19,7 +19,9 @@ Defines the HBNBCommand(cmd.Cmd):
 
 class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
-    __classes = {"BaseModel": BaseModel}
+    __classes = {"BaseModel": BaseModel
+            "User": User
+            }
 
     def emptyline(self):
         """

@@ -1,8 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/pythoni3
 import locale
 import json
 from models.base_model import BaseModel
-
+from models.user import User
 
 """
 This class serializes instances to a JSON file
@@ -43,6 +43,7 @@ class FileStorage:
         deserializes the JSON file tp object if the path exists
         otherwise nothing happens
         """
+        class_list = {"User": User}
         try:
             with open(self.__file_path, "r",
                       encoding=locale.getpreferredencoding()) as f:
