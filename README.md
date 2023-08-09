@@ -18,7 +18,7 @@ The console will be a tool to validate this storage engine
 ---------------------------------------------------------------------------------------------------
 In order to access this project, you have to run the following command in the console:
 
-	```shell
+	```
 	  git clone https://@github.com/TechDanny/AirBnB_clone.git
 	```
 
