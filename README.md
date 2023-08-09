@@ -18,30 +18,30 @@ The console will be a tool to validate this storage engine
 ---------------------------------------------------------------------------------------------------
 In order to access this project, you have to run the following command in the console:
 
-	'''shell
+	```shell
 	  git clone https://@github.com/TechDanny/AirBnB_clone.git
-	'''
+	```
 
 ### Run
 ----------------------------------------------------------------------------------------------------
 To run this program, enter the following command:
-	'''shell
+	```shell
 	  cd AirBnB_clone
-	'''
+	```
 
 To execute the program, run the following commands
 
-	'''shell
+	```shell
 	  ./console.py
-	'''
+	```
 or
 
-	'''shell
+	```shell
 	  python3 console.py
-	'''
+	```
 
 To get help, run this command:
 
-	'''shell
+	```shell
 	  help
-	'''
+	```
