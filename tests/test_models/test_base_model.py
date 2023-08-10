@@ -87,3 +87,6 @@ class TestBaseModel(unittest.TestCase):
         m = n.to_dict()
         n = BaseModel(**m)
         self.assertFalse(n.created_at == n.updated_at)
+
+if __name__ == "__main__":
+    unittest.main()
