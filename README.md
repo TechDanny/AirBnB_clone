@@ -1,6 +1,4 @@
 ### AirBnB clone - Console
-
-<img src = "https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230810T191120Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=546ccfee2dc9bcb7c9c8570a9889e7439e5b760bd1093704f28be61288a3220c" alt = "console image" width = "500">
 ----------------------------------------------------------------------------------------------------
 ### Project Description
 ----------------------------------------------------------------------------------------------------
