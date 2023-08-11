@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Creates a user class that inherits from BaseModel
+Defines a user class that inherits from BaseModel
 """
 
 from models.base_model import BaseModel
