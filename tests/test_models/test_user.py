@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
 """
-Test class of the user
+Testing a class of the User
 """
 
 
