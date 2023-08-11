@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines a Place unittest
+Defines a class Place unittest
 """
 
 
