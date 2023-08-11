@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-defines amenity that inherits from BaseModel
+Defines amenity that inherits from BaseModel
 """
 
 
