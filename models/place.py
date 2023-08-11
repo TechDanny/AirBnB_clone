@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-defines Place class that inherits from BaseModel
+Defines class Place that inherits from BaseModel
 """
 
 
