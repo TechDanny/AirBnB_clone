@@ -3,8 +3,8 @@ from datetime import datetime
 import models
 
 """
-Defines all common attributes/methods for
-other classes
+Defining all common attributes/methods for
+other classes in BaseModel
 """
 
 
