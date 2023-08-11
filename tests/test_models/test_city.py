@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-unit test for the class City
+Defining the unit test for the class City
 """
 
 import unittest
