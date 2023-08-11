@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines class Amenity using Unittest
+Defines the class Amenity using Unittest
 """
 
 
