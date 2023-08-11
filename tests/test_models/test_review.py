@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defining class Reviews unittest
+Defining the class Review using unittest
 """
 
 
