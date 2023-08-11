@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-defines the class State unittest
+Defines the class State by the help of unittest
 """
 
 
