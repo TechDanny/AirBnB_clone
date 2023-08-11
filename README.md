@@ -53,7 +53,7 @@ To quit from the program, run this command:
   quit
 ```
 
-###Contribitions
+### Contribitions
 ---------------------------------------------------------------------------------------
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
@@ -64,14 +64,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 5. Open a Pull Request
 
 
-###Contacts
+### Contacts
 ----------------------------------------------------------------------------------------------
 Email: kokidanny15@gmail.com  or  swabulwenyi@gmail.com
 
 Project link: https://github.com/TechDanny/AirBnB_clone
 
 
-###Acknowledgments
+### Acknowledgments
 ------------------------------------------------------------------
 These are some of resources we used and would like to give credit to the authors.
 
