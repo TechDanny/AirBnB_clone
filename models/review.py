@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-defines a class Review that inheritsfrom BaseModel
+Defines a class Review that inherits from BaseModel
 """
 
 
