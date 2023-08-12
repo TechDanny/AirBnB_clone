@@ -1,4 +1,7 @@
-#!/usr/bin/pythoni3
+#!/usr/bin/python3
+"""
+impoort the needed modules
+"""
 import locale
 import json
 from models.base_model import BaseModel
@@ -48,8 +51,7 @@ class FileStorage:
 
     def reload(self):
         """
-        deserializes the JSON file tp object if the path exists
-        otherwise nothing happens
+        deserializes the JSON file to object
         """
         class_list = {"BaseModel": BaseModel,
                       "User": User,
