@@ -13,7 +13,13 @@ other classes in BaseModel
 
 
 class BaseModel:
+    """
+    create instances
+    """
     def __init__(self, *args, **kwargs):
+        """
+        arguments for constructor of base model
+        """
         if len(kwargs) != 0:
             for key, value in kwargs.items():
                 if key == '__class__':
@@ -30,14 +36,23 @@ class BaseModel:
             models.storage.new(self)
 
     def __str__(self):
+        """
+        prints class.name, self.id, self.__dict__
+        """
         my_className = self.__class__.__name__
         return "[{}] ({}) {}".format(my_className, self.id, self.__dict__)
 
     def save(self):
+        """
+        updates the public instance
+        """
         self.updated_at = datetime.now()
         models.storage.save()
 
     def to_dict(self):
+        """
+        returns a dictionary containing all keys and values
+        """
         rslt = self.__dict__.copy()
         rslt['created_at'] = self.created_at.isoformat()
         rslt['updated_at'] = self.updated_at.isoformat()
