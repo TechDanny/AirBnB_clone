@@ -11,17 +11,20 @@ from models.review import Review
 
 """
 This class serializes instances to a JSON file
-and deserializes JSON file to instances
+and vice versa
 """
 
 
 class FileStorage:
+    """
+    private class attributes
+    """
     __file_path = "file.json"
     __objects = {}
 
     def all(self):
         """
-        returns the dictionary __objects
+        returns the dictionary
         """
         return self.__objects
 
@@ -48,7 +51,8 @@ class FileStorage:
         deserializes the JSON file tp object if the path exists
         otherwise nothing happens
         """
-        class_list = {"User": User,
+        class_list = {"BaseModel": BaseModel,
+                      "User": User,
                       "Place": Place,
                       "State": State,
                       "City": City,
