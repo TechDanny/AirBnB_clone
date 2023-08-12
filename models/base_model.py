@@ -4,7 +4,7 @@ import all useful models
 """
 import uuid
 from datetime import datetime
-import models
+from models import storage
 
 """
 Defining all common attributes/methods for
