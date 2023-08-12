@@ -10,7 +10,7 @@ other classes in BaseModel
 
 class BaseModel:
     def __init__(self, *args, **kwargs):
-        if kwargs:
+        if len(kwargs) != 0:
             for key, value in kwargs.items():
                 if key == "created_at" or key == "updated_at":
                     setattr(self, key, datetime.strptime(value,
