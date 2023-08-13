@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
-impoort the needed modules
+This class serializes instances to a JSON file
+and vice versa
 """
+
+
 import locale
 import json
 from models.base_model import BaseModel
@@ -12,16 +15,12 @@ from models.city import City
 from models.amenity import Amenity
 from models.review import Review
 
-"""
-This class serializes instances to a JSON file
-and vice versa
-"""
-
 
 class FileStorage:
     """
     private class attributes
     """
+
     __file_path = "file.json"
     __objects = {}
 
