@@ -18,6 +18,8 @@ section.filters button:hover{
     width: 25%;
     border-right: 1px solid #DDDDDD;
     margin-left: auto;
+    text-align: left;
+    order: 0;
 }
 .amenities{
     height: 100%;
